@@ -1,0 +1,132 @@
+  background: #fff;
+  border: 1.5px solid #d1d5db;
+  border-radius: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+  padding: 2.5rem 2rem;
+  width: 350px;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card h2 {
+  margin-bottom: 1.5rem;
+}
+
+.card form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.card input {
+  margin-bottom: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card button {
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+
+.card input {
+  padding: 0.7rem;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.card button {
+  padding: 0.7rem;
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: background 0.2s;
+}
+.card button:hover {
+  background: #125ea2;
+}
+
+.card p {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.card .error {
+  color: #d32f2f;
+}
+
+/* Secondary button (link-style) */
+.secondary-button {
+  width: 100%;
+  padding: 0.6rem;
+  font-size: 0.95rem;
+  background: transparent;
+  color: #1976d2;
+  border: 1px solid transparent;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.secondary-button:hover {
+  background: rgba(25,118,210,0.06);
+  border-color: rgba(25,118,210,0.12);
+}
+  margin-top: 0.5rem;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Centered container for forms and dashboard */
+.centered-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f7f7f7;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
